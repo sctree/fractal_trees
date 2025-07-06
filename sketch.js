@@ -12,5 +12,7 @@ function draw() {
 }
 
 function branch(len) {
-    line(200, height, 200, height - len);
+    line(0, 0, 0, -len);
+    rotate(PI / 4);
+    line(0, 0, 0, -len);
 }
