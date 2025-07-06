@@ -3,7 +3,7 @@ var angle = PI / 4;
 var slider;
 function setup() {
   createCanvas(600, 400);
-  slider = createSlider(0, TWO_PI, PI / 4);
+  slider = createSlider(0, TWO_PI, PI / 4, 0.01);
 }
 
 function draw() {
