@@ -4,6 +4,13 @@ function setup() {
 }
 
 function draw() {
-  fill(255, 0, 0);
-  ellipse(mouseX, mouseY, 50, 50);
+    background(51);
+    stroke(255);
+    translate(200, height);
+    branch(100);
+
+}
+
+function branch(len) {
+    line(200, height, 200, height - len);
 }
