@@ -13,6 +13,8 @@ function draw() {
 
 function branch(len) {
     line(0, 0, 0, -len);
+    translate(0, -len);
     rotate(PI / 4);
-    line(0, 0, 0, -len);
+    branch(-len * 0.67);
+    //line(0, 0, 0, -len * 0.67);
 }
