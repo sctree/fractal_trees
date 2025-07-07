@@ -1,6 +1,7 @@
 var angle = 0;
-
 var slider;
+let seeds = [];
+
 function setup() {
   createCanvas(600, 400);
   slider = createSlider(0, TWO_PI, PI / 4, 0.01);
