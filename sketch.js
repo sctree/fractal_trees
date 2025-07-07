@@ -16,6 +16,15 @@ function draw() {
 
 }
 
+function mousePressed() {
+    seeds.push({
+        x: mouseX,
+        y: mouseY,
+        vy: 2,
+        landed: false
+    });
+}
+
 function branch(len) {
     line(0, 0, 0, -len);
     translate(0, -len);
